@@ -24,7 +24,7 @@ bbc的文章正文全部都在：class="story-body"中
 
 9.有时候出现：在获取文章内容的时候出错： <class 'Exception'>  :  'NoneType' object has no attribute 'find_all'
             在保持文章的时候出错： <class 'Exception'>  :  'NoneType' object is not iterable的问题时是因为抓取的文章不是我们需要的，没有正文，别方~~~
-10.http://www.huffingtonpost.com/的文章链接有点复杂啊，而且有很多页面是视频，而且这些还和一般文章链接是一样的。
+10.http://www.huffingtonpost.com/ 的文章链接有点复杂啊，而且有很多页面是视频，而且这些还和一般文章链接是一样的。
 """
 SITES = {
 
