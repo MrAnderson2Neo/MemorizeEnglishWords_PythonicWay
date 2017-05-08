@@ -54,7 +54,7 @@ if __name__ == "__main__":
             pTags = soup.find_all("p")
             for pTag in pTags:
                 if pTag.string:
-                    with open ("../files/pythondoc.txt","w+",encoding="utf-8") as f: 
+                    with open ("pythondoc.txt","w+",encoding="utf-8") as f:
                         f.write(pTag.string)
                         f.write("\n")
      
