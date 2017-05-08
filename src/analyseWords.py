@@ -8,7 +8,7 @@ importlib.reload(sys)
 from collections import defaultdict
 
 words = defaultdict(int)
-with open("../collection.txt","r",encoding="utf-8") as f:
+with open("../test.txt","r",encoding="utf-8") as f:
     for line in f.readlines():
         w = line.split(" ")
         for word in w:
