@@ -2,6 +2,7 @@
 1.每个词条有一个 id = "bodyContent",包含了正文内容，可以缩小范围。
 2.词条页面url很统一： /wiki/Multi-paradigm_programming_language
 3.为什么有些p标签的内容无法保存？
+4.应该重构一下代码：分为两部分：第一部分专注于获取相关url，第二部分专注于保持内容
 """
 import urllib.request
 import urllib.parse

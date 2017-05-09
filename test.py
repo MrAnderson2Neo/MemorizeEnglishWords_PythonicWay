@@ -37,11 +37,3 @@ html_doc = """
 soup = BeautifulSoup(html_doc,"html.parser")
 print(soup.find("p").get_text())
 
-
-
-
-
-
-
-
-
